@@ -15,7 +15,7 @@ body.fullheight {
   height: 100%;
 }
 
-.btn {
+.btn.wid90 {
   width: 90px;
 }
 
