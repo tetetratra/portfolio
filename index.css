@@ -136,6 +136,10 @@ div.carrer {
 }
 
 div.carrer a {
+  color: blue;
+}
+
+div.carrer a.company {
   color: #6BE;
 }
 
