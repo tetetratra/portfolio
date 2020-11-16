@@ -10,7 +10,7 @@ body:after {
   height: 100%;
   z-index: -1;
   content: "";
-  background: linear-gradient(to bottom, #DFD 0%, #DDF 100%);
+  background: linear-gradient(to bottom, #EFE 0%, #EEF 100%);
 }
 
 body {
@@ -72,7 +72,7 @@ ul.link > li > a {
 }
 
 ul.link > li.twitter {
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #3AF;
 }
 
 ul.link > li.github {
@@ -80,7 +80,7 @@ ul.link > li.github {
 }
 
 ul.link > li.blog {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #FFF;
 }
 
 ul.link > li.scrapbox {
