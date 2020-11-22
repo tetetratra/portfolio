@@ -147,3 +147,14 @@ div.carrer p {
   margin: 10px;
 }
 
+/*************************/
+
+/* スマホ向け */
+
+@media screen and (max-width: 42em) {
+  main {
+    margin-left: -5%;
+    margin-right: 2%;
+  }
+}
+
