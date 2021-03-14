@@ -110,6 +110,13 @@ body {
   top: 70px;
   left: 285px;
 }
+.link-blog:hover:after {
+  color: black;
+  content: "ブログ";
+  position: absolute;
+  top: 70px;
+  left: 410px;
+}
 
 .item:nth-child(5) {
   background-color: #CFD;
