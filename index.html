@@ -4,10 +4,14 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="index.css">
-    <title>てとらのページ</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+
+    <title>tetetratra.net</title>
     <meta name="twitter:card" content="summary"/>
     <meta property="og:url" content="http://tetetratra.net"/>
-    <meta property="og:title" content="てとらのページ"/>
+    <meta property="og:title" content="tetetratra.net"/>
     <meta property="og:image" content="http://tetetratra.net/favicon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -21,93 +25,49 @@
   </head>
   <body>
     <main>
-      <h1 class="title">てとらのページ</h1>
-      <h2 class="subtitle">ようこそ</h2>
-      <p>こんにちは</p>
-      <h2 class="subtitle">リンク</h2>
-      <ul class="link">
-        <li class="twitter">
-          <a href="https://twitter.com/tetetratra">Twitter</a>
-        </li>
-        <li class="github">
-          <a href="https://github.com/tetetratra/">GitHub</a>
-        </li>
-        <li class="blog">
-          <a href="https://blog.tetetratra.net/">Blog</a>
-        </li>
-        <li class="scrapbox">
-          <a href="https://scrapbox.io/tetetratra-tech">Scrapbox</a>
-        </li>
-        <!-- <li class="atcoder"> -->
-        <!--   <a rel="noopener noreferrer" target="_blank" href="https://atcoder.jp/users/tetetratra">AtCoder</a> -->
-        <!-- </li> -->
-        <li class="qiita">
-          <a href="https://qiita.com/tetetratra">Qiita</a>
-        </li>
-      </ul>
-      <!-- <h2 class="subtitle">興味・趣味</h2> -->
-      <!-- <div class="hobby"> -->
-      <!--   <ul> -->
-      <!--     <li> -->
-      <!--       Ruby -->
-      <!--       <ul> -->
-      <!--         <li>内側の仕組みまで知りたい</li> -->
-      <!--         <li>言語のパラダイムについて最近ちょっと興味</li> -->
-      <!--       </ul> -->
-      <!--     </li> -->
-      <!--     <li> -->
-      <!--       アイマス -->
-      <!--       <ul> -->
-      <!--         <li>全シリーズを広く浅く浅く</li> -->
-      <!--         <li>最近はシャニマスをぼちぼちポチポチ</li> -->
-      <!--       </ul> -->
-      <!--     </li> -->
-      <!--     <li> -->
-      <!--       伊坂幸太郎 -->
-      <!--       <ul> -->
-      <!--         <li>昔よく読んでました</li> -->
-      <!--         <li>最近のは全然読めてない</li> -->
-      <!--       </ul> -->
-      <!--     </li> -->
-      <!--     <li> -->
-      <!--       アクアリウム -->
-      <!--       <ul> -->
-      <!--         <li>昔やってました</li> -->
-      <!--         <li>水草水槽系</li> -->
-      <!--       </ul> -->
-      <!--     </li> -->
-      <!--   </ul> -->
-      <!-- </div> -->
-      <h2 class="subtitle">制作</h2>
-      <div class="biotter">
-        <h3><a href="https://biotter.herokuapp.com/">biotter</a></h3>
-        <p>ツイッターのプロフィール欄を残せます. Botは<a href="https://twitter.com/_Biotter_" class="biotter_bot_link">こちら</a>.&nbsp;フォローしてね~</p>
-      </div>
-      <!-- <div class="md-iary"> -->
-      <!--   <h3><a href="https://md-iary.herokuapp.com">md-iary</a></h3> -->
-      <!--   <p>マークダウンで書けるシンプルな日記webアプリ</p> -->
-      <!-- </div> -->
-      <h2 class="subtitle">所属・経歴</h2>
-      <div class="carrer">
-        <p>
-          <time datetime="2020-09-01">2020年11月</time>〜<br>
-          <a class="company" rel="noopener noreferrer" target="_blank" href="https://www.donuts.ne.jp/">株式会社Donuts</a><br>
-          Webエンジニア 長期インターン
-        </p>
-      </div>
-      <div class="carrer">
-        <p>
-          <time datetime="2018-09-01">2018年9月〜</time><time datetime="2018-10-31">2020年10月</time><br>
-          <a class="company" rel="noopener noreferrer" target="_blank" href="http://rooter.jp/">株式会社ルーター</a><br>
-          Webクローラー開発・サーバーサイドエンジニア アルバイト<br>
-        </p>
-      </div>
-      <div class="carrer">
-        <p>
-          <time datetime="2018-09-01">2018年4月〜</time><br>
-          <a class="company" rel="noopener noreferrer" target="_blank" href="http://uec.ac.jp">電通大 </a><br>
-          B3 コンピュータサイエンスプログラム 留年
-        </p>
+      <div class="grid">
+        <div class="item">
+          <a class="title-text" href="/">tetetratra.net</a>
+        </div>
+        <div class="item">
+          <img class="icon icon-req" src="images/req.png">
+        </div>
+        <div class="item">
+          link
+        </div>
+        <div class="item">
+          <div class="icon">
+            <a class="link-twitter" href="https://twitter.com/tetetratra"><img class="icon icon-w60 icon-twitter" src="images/twitter_logo.png"></a>
+            <a class="link-github" href="https://github.com/tetetratra"><img class="icon icon-w60 icon-github" src="images/github_logo.png"></a>
+            <a class="link-qiita" href="https://scrapbox.io/tetetratra-tech"><img class="icon icon-w60 icon-qiita" src="images/qiita_logo.png"></a>
+            <a class="link-scrapbox" href="https://qiita.com/tetetratra"><img class="icon icon-h60 icon-scrapbox" src="images/scrapbox_logo.png"></a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <a class="link-biotter" href="https://biotter.herokuapp.com"><img class="icon icon-biotter" src="images/biotter_logo.png"></a>
+            <p class="biotter-title">biotter</p.biotter>
+            <p class="biotter-description">ツイッターのプロフィールの変更履歴を残すことができるサービス</p.biotter>
+          </div>
+        </div>
+        <div class="item">
+          product
+        </div>
+        <div class="item">
+          carrer
+        </div>
+        <div class="item">
+          <div class="carrer">
+            <time class="carrer-term" datetime="2020-09-01">2020年11月</time>〜<br>
+            <a class="carrer-company" rel="noopener noreferrer" href="https://www.donuts.ne.jp">株式会社Donuts</a>
+            <p class="carrer-description">Webエンジニア 長期インターン</p>
+          </div>
+          <div class="carrer">
+            <time class="carrer-term" datetime="2018-09-01">2018年9月〜</time><time class="carrer-term" datetime="2018-10-31">2020年10月</time><br>
+            <a class="carrer-company" rel="noopener noreferrer" href="https://rooter.jp">株式会社ルーター</a>
+            <p class="carrer-description">Webクローラー開発・サーバーサイドエンジニア アルバイト</p>
+          </div>
+        </div>
       </div>
     </main>
   </body>
